@@ -43,7 +43,7 @@ def wordle(answers, guesses):
     
     print("Lost! Today's word is " + word + "!")
 
-answers = load_words('answers.txt')
-guesses = load_words('guesses.txt')
+answers = load_words('data/answers.txt')
+guesses = load_words('data/guesses.txt')
 
 wordle(guesses, answers)
